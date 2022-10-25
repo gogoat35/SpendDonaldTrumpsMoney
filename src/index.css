@@ -118,18 +118,34 @@ body {
   color: black;
 }
 .cartContainer {
-  display: block;
-  margin: 0 auto;
-  margin-top: 20px;
   background-color: #fff;
-  color: black;
-  width: 400px;
-  height: auto;
-}
-.cartContainer > div {
-  padding: 10px;
+  text-align: center;
+  width: 74%;
+  margin: 10px auto;
+  padding: 15px;
 }
 
 .cartContainer > hr {
-  width: 100%;
+  width: 50%;
+  margin: 10px auto;
+}
+.items {
+  display: grid;
+  max-width: 290px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 18px;
+  grid-template-columns: auto auto auto;
+}
+.total {
+  font-weight: 700;
+  max-width: 300px;
+  border-top: 1px solid #333;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
 }
