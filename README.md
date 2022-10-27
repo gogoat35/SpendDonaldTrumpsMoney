@@ -2,6 +2,7 @@
 
 This project is React Redux clone of [Spend Bill Gates' Money](https://neal.fun/spend/)
 
+## See the project online
 You can see the project online in [Spend Bill Gates' Money](sirpak-spendbgsmoney.surge.sh)
 
 # Installation
