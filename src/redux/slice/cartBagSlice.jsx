@@ -4,7 +4,7 @@ export const cartBagSlice = createSlice({
   name: "bag",
   initialState: {
     total: 0,
-    balance: 100000000000,
+    balance: 2600000000,
     items: items,
     cart: [],
   },
